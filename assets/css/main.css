@@ -1,0 +1,69 @@
+:root{
+    --primarycolor:#ff206e;
+    --mainfonts:"Open Sans", sans-serif;
+    
+}
+
+.text__primary{
+ color: var(--primarycolor);
+}
+
+
+
+.navbar-nav .nav-item a.active {
+    color: var(--primarycolor);
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+body{
+    font-family: var(--mainfonts);
+}
+
+.hero{
+    background-image: url(./../image/bg.jpg);
+    background-size: cover;
+    background-position: center -50px;
+}
+
+.about{
+    background-image: url(./../image/backgrund_about.jpg);
+    
+}
+
+.portfolio .nav-tabs .nav-link{
+    border: none;
+    
+}
+
+.portfolio .nav-tabs {
+    border-bottom: none;
+}
+
+.portfolio .nav-tabs .nav-item.show .nav-link,.portfolio .nav-tabs .nav-link.active {
+    color: var(--primarycolor);
+    transition: 1s;
+}
+
+.portfolio .nav-link {
+    color: #000;
+    transition: 1s;
+}
+.portfolio .nav-tabs .nav-item.show .nav-link:hover{
+    color: #000;
+
+}
+
+.portfolio  .nav-link:hover{
+    color: var(--primarycolor);
+
+}
+
+
+.portfolio{
+    background-image: url(./../image/backgrund_about.jpg);
+}
+
+
