@@ -66,4 +66,9 @@ body{
     background-image: url(./../image/backgrund_about.jpg);
 }
 
+.testimonial img{
+    width: 100px;
+    height: 100px;
+}
+
 
